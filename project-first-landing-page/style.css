@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  color: #223b49;
+}
+
+.navbar {
+  background-color: #223b49;
+  padding: 10px;
+  height: 80px;
+}
+.navbar-link {
+  color: gold;
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.container {
+  padding: 100px 50px;
+}
+.row {
+  display: block;
+}
+.article {
+  padding: 0 5px;
+  width: 33%;
+  box-sizing: border-box;
+  float: left;
+}
+.article-image {
+  max-width: 100%;
+}
+.hero {
+  background: darkslategray;
+  /* background: linear-gradient(15deg, #80d0c7 0%, #13547a 100%); */
+  background: url(https://source.unsplash.com/1200x720/?travel) no-repeat center;
+
+
+  color: #fff;
+  padding: 25px 0;
+  height: 500px;
+  text-align: center;
+}
+.hero-image {
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+.article-tag {
+  background-color: #35696e;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.sticky {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+}
+.special {
+  color: #fff;
+  font-size: 2em;
+  /* transition: all 0.3s linear; */
+}
+.special:hover {
+  box-shadow: rgba(208, 5, 5, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
+.main-nav {
+  list-style: none;
+  margin: 0;
+  font-size: 0.7em;
+}
+.main-nav > li {
+  display: inline-block;
+  padding: 20px;
+}
+
+li > a {
+  color: #f5f5f6;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px darkslateblue;
+}
+li > a:hover {
+  color: #686de0;
+}
+p{
+  background-color:rgb(105, 158, 26) ;
+
+}
+
+.input search{
+  -webkit-font-smoothing: antialiased;
+-webkit-tap-highlight-color: transparent;
+list-style-type: none;
+box-sizing: inherit;
+margin: 0;
+font-family: "Open Sans",sans-serif;
+outline-offset: -2px;
+background-clip: padding-box;
+min-height: calc(2.4rem + 22px);
+border-radius: 4px;
+outline-color: #4d726d;
+width: 100%;
+border: 0;
+color: #343434;
+height: calc(2.4rem + 26px);
+padding: 13px 50px 13px 15px;
+background-color: rgba(255,255,255,.85);
+font-size: 1.6rem;
+line-height: 12vh;
+
+}
